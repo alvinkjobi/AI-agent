@@ -28,26 +28,4 @@ MODEL=llama3.2
 
 These values are an example for Ollama. Make sure Ollama is running and the model named in `MODEL` is available. For another OpenAI-compatible service, use its API base URL, API key, and model name instead. Keep real API keys private; `.env` is excluded from Git.
 
-## Run
 
-Run the single-question example:
-
-```powershell
-python Day1/hello_ai.py
-```
-
-Start the interactive chat:
-
-```powershell
-python Day1/assistant.py
-```
-
-In the interactive chat, enter `exit` or `quit` to end the session.
-
-## Project Structure
-
-```text
-Day1/
-	assistant.py  Interactive terminal chat
-	hello_ai.py   Sends one example question and prints the response
-```
